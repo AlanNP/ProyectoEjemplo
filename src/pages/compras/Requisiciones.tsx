@@ -76,7 +76,7 @@ export default function Requisiciones() {
         }
       />
 
-      <div className="grid grid-cols-2 lg:grid-cols-5 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
         {Object.entries(statusLabel).map(([key, label]) => (
           <div key={key} className="card text-center">
             <p className="text-2xl font-bold text-slate-800">{data.filter(r => r.status === key).length}</p>

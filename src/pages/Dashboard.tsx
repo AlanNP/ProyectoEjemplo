@@ -64,7 +64,7 @@ export default function Dashboard() {
       </div>
 
       {/* Stats Cards */}
-      <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 gap-3 sm:gap-4">
         {statsCards.map((card, idx) => (
           <div key={idx} className="card">
             <div className={`w-10 h-10 rounded-xl flex items-center justify-center mb-3 ${card.color}`}>
@@ -78,9 +78,9 @@ export default function Dashboard() {
       </div>
 
       {/* Charts row */}
-      <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6">
         {/* Revenue chart */}
-        <div className="card xl:col-span-2">
+        <div className="card lg:col-span-2">
           <h2 className="text-base font-semibold text-slate-800 mb-4">Ingresos vs Gastos (últimos 7 meses)</h2>
           <ResponsiveContainer width="100%" height={240}>
             <BarChart data={MONTHLY_DATA} barSize={24} barGap={4}>
@@ -121,7 +121,7 @@ export default function Dashboard() {
       </div>
 
       {/* Bottom row */}
-      <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
         {/* Obras progress */}
         <div className="card">
           <h2 className="text-base font-semibold text-slate-800 mb-4">Avance de Obras Activas</h2>

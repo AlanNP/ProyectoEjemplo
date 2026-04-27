@@ -75,7 +75,7 @@ export default function Usuarios() {
         }
       />
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
         {/* Users table */}
         <div className="lg:col-span-2 card">
           <DataTable

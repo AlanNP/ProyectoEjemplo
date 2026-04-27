@@ -75,7 +75,7 @@ export default function Obras() {
       />
 
       {/* Summary cards */}
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div className="card text-center">
           <p className="text-3xl font-bold text-blue-600">{stats.activas}</p>
           <p className="text-sm text-slate-500 mt-1">Obras Activas</p>

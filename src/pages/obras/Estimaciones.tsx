@@ -65,7 +65,7 @@ export default function Estimaciones() {
         }
       />
 
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div className="card text-center">
           <p className="text-lg font-bold text-slate-800">{formatCurrency(total)}</p>
           <p className="text-sm text-slate-500 mt-1">Total Estimado</p>

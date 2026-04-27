@@ -61,7 +61,7 @@ export default function Cotizaciones() {
         }
       />
 
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
         {['pendiente', 'aprobada', 'rechazada', 'vencida'].map(status => (
           <div key={status} className="card text-center">
             <p className="text-2xl font-bold text-slate-800">{data.filter(c => c.status === status).length}</p>

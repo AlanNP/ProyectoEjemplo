@@ -75,7 +75,7 @@ export default function FacturasProveedores() {
         }
       />
 
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div className="card text-center border-l-4 border-l-yellow-400">
           <p className="text-lg font-bold text-yellow-600">{formatCurrency(totalPendiente)}</p>
           <p className="text-sm text-slate-500 mt-1">Por Pagar</p>

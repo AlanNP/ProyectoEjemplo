@@ -47,7 +47,7 @@ export default function Login() {
         style={{ backgroundImage: 'radial-gradient(circle, #fff 1px, transparent 1px)', backgroundSize: '32px 32px' }}
       />
 
-      <div className="w-full max-w-md relative">
+      <div className="w-full max-w-md relative px-4 sm:px-0">
         {/* Logo */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-white/10 backdrop-blur rounded-2xl mb-4 border border-white/20">

@@ -48,7 +48,7 @@ export default function DataTable<T extends { id: string }>({
   return (
     <div className="space-y-4">
       {searchable && (
-        <div className="relative w-72">
+        <div className="relative w-full sm:w-72">
           <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
           <input
             type="text"
